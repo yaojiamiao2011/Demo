@@ -3,6 +3,8 @@
  * via access control by convention.
  */
 class ShiroSecurityFilters {
+
+
     def filters = {
         all(uri: "/**") {
             before = {
@@ -14,4 +16,10 @@ class ShiroSecurityFilters {
             }
         }
     }
+
+
+
+				
+ 
+    
 }
