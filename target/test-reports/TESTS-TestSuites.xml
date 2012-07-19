@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="yaojiamiao-PC" id="0" name="HuDepartControllerTests" package="demo" tests="1" time="3.717" timestamp="2012-07-19T04:01:32">
+      <properties />
+
+      <testcase classname="demo.HuDepartControllerTests" name="testSomething" time="3.061">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at demo.HuDepartControllerTests.testSomething(HuDepartControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="yaojiamiao-PC" id="1" name="HuDepartTests" package="demo" tests="1" time="0.92" timestamp="2012-07-19T04:01:36">
+      <properties />
+
+      <testcase classname="demo.HuDepartTests" name="testSomething" time="0.913">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at demo.HuDepartTests.testSomething(HuDepartTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
