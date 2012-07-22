@@ -13,8 +13,8 @@ def role= new ShiroRole(name:"admin").addToUsers(user).save()
 } 
 **/
     def init = { servletContext ->
-         def admin = new ShiroUser( username: "admin" ,  passwordHash: new Sha512Hash("admin").toHex()).save()
-         def adminRole = new ShiroRole(name:"admin").addToUsers(admin).addToPermissions("*:*").save()
+        // def admin = new ShiroUser( username: "admin" ,  passwordHash: new Sha512Hash("admin").toHex()).save()
+        // def adminRole = new ShiroRole(name:"admin").addToUsers(admin).addToPermissions("*:*").save()
      }
  
     def destroy = {

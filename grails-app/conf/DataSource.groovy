@@ -14,19 +14,19 @@ environments {
     development {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop','update'
-            url = "jdbc:mysql://localhost:3306/test01"
+            url = "jdbc:mysql://localhost:3306/test01?useUnicode=true&characterEncoding=utf-8"
         }
     }
     test {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:mysql://localhost:3306/test02"
+            url = "jdbc:mysql://localhost:3306/test02?useUnicode=true&characterEncoding=utf-8"
         }
     }
     production {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:mysql://localhost:3306/test03"
+            url = "jdbc:mysql://localhost:3306/test03?useUnicode=true&characterEncoding=utf-8"
         }
     }
 }
